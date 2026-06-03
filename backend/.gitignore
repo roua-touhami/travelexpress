@@ -1,0 +1,46 @@
+# Variables d'environnement sensibles
+.env
+*.env
+.env.local
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Environnement virtuel
+venv/
+env/
+ENV/
+.venv/
+
+# Base de données
+*.db
+*.sqlite
+*.sqlite3
+dictionary_manager.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
